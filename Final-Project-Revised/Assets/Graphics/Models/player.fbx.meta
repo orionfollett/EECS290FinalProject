@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 08da0146c056646cdbf103f396b1f0b0
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: body
+  - first:
+      1: 100002
+    second: head
+  - first:
+      1: 100004
+    second: jaw
+  - first:
+      1: 100006
+    second: lankle
+  - first:
+      1: 100008
+    second: lclavicle
+  - first:
+      1: 100010
+    second: lelbow
+  - first:
+      1: 100012
+    second: lfingers
+  - first:
+      1: 100014
+    second: lfingertips
+  - first:
+      1: 100016
+    second: lfoot
+  - first:
+      1: 100018
+    second: lhip
+  - first:
+      1: 100020
+    second: lknee
+  - first:
+      1: 100022
+    second: lknuckle
+  - first:
+      1: 100024
+    second: lshoulder
+  - first:
+      1: 100026
+    second: lthumb
+  - first:
+      1: 100028
+    second: lthumbtip
+  - first:
+      1: 100030
+    second: ltoe
+  - first:
+      1: 100032
+    second: lwrist
+  - first:
+      1: 100034
+    second: neck
+  - first:
+      1: 100036
+    second: pelvis
+  - first:
+      1: 100038
+    second: //RootNode
+  - first:
+      1: 100040
+    second: rankle
+  - first:
+      1: 100042
+    second: rclavicle
+  - first:
+      1: 100044
+    second: relbow
+  - first:
+      1: 100046
+    second: rfingers
+  - first:
+      1: 100048
+    second: rfingertip
+  - first:
+      1: 100050
+    second: rfoot
+  - first:
+      1: 100052
+    second: rhip
+  - first:
+      1: 100054
+    second: rknee
+  - first:
+      1: 100056
+    second: rknuckle
+  - first:
+      1: 100058
+    second: rshoulder
+  - first:
+      1: 100060
+    second: rthumb
+  - first:
+      1: 100062
+    second: rthumbtip
+  - first:
+      1: 100064
+    second: rtoe
+  - first:
+      1: 100066
+    second: rwrist
+  - first:
+      1: 100068
+    second: spine1
+  - first:
+      1: 100070
+    second: spine2
+  - first:
+      1: 100072
+    second: spine3
+  - first:
+      1: 100074
+    second: spine4
+  - first:
+      4: 400000
+    second: body
+  - first:
+      4: 400002
+    second: head
+  - first:
+      4: 400004
+    second: jaw
+  - first:
+      4: 400006
+    second: lankle
+  - first:
+      4: 400008
+    second: lclavicle
+  - first:
+      4: 400010
+    second: lelbow
+  - first:
+      4: 400012
+    second: lfingers
+  - first:
+      4: 400014
+    second: lfingertips
+  - first:
+      4: 400016
+    second: lfoot
+  - first:
+      4: 400018
+    second: lhip
+  - first:
+      4: 400020
+    second: lknee
+  - first:
+      4: 400022
+    second: lknuckle
+  - first:
+      4: 400024
+    second: lshoulder
+  - first:
+      4: 400026
+    second: lthumb
+  - first:
+      4: 400028
+    second: lthumbtip
+  - first:
+      4: 400030
+    second: ltoe
+  - first:
+      4: 400032
+    second: lwrist
+  - first:
+      4: 400034
+    second: neck
+  - first:
+      4: 400036
+    second: pelvis
+  - first:
+      4: 400038
+    second: //RootNode
+  - first:
+      4: 400040
+    second: rankle
+  - first:
+      4: 400042
+    second: rclavicle
+  - first:
+      4: 400044
+    second: relbow
+  - first:
+      4: 400046
+    second: rfingers
+  - first:
+      4: 400048
+    second: rfingertip
+  - first:
+      4: 400050
+    second: rfoot
+  - first:
+      4: 400052
+    second: rhip
+  - first:
+      4: 400054
+    second: rknee
+  - first:
+      4: 400056
+    second: rknuckle
+  - first:
+      4: 400058
+    second: rshoulder
+  - first:
+      4: 400060
+    second: rthumb
+  - first:
+      4: 400062
+    second: rthumbtip
+  - first:
+      4: 400064
+    second: rtoe
+  - first:
+      4: 400066
+    second: rwrist
+  - first:
+      4: 400068
+    second: spine1
+  - first:
+      4: 400070
+    second: spine2
+  - first:
+      4: 400072
+    second: spine3
+  - first:
+      4: 400074
+    second: spine4
+  - first:
+      43: 4300000
+    second: body
+  - first:
+      74: 7400000
+    second: idle
+  - first:
+      74: 7400002
+    second: walk
+  - first:
+      74: 7400004
+    second: run
+  - first:
+      74: 7400006
+    second: jump
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 9665e161386454f62b95f4f940df97ef, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 3
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 0
+      - path: pelvis
+        weight: 1
+      - path: pelvis/lhip
+        weight: 1
+      - path: pelvis/lhip/lknee
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot/ltoe
+        weight: 1
+      - path: pelvis/rhip
+        weight: 1
+      - path: pelvis/rhip/rknee
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot/rtoe
+        weight: 1
+      - path: pelvis/spine1
+        weight: 1
+      - path: pelvis/spine1/spine2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle/lfingertips
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb/lthumbtip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head/jaw
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle/rfingertip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb/rthumbtip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 144
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 0
+      - path: pelvis
+        weight: 1
+      - path: pelvis/lhip
+        weight: 1
+      - path: pelvis/lhip/lknee
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot/ltoe
+        weight: 1
+      - path: pelvis/rhip
+        weight: 1
+      - path: pelvis/rhip/rknee
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot/rtoe
+        weight: 1
+      - path: pelvis/spine1
+        weight: 1
+      - path: pelvis/spine1/spine2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle/lfingertips
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb/lthumbtip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head/jaw
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle/rfingertip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb/rthumbtip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 171
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 0
+      - path: pelvis
+        weight: 1
+      - path: pelvis/lhip
+        weight: 1
+      - path: pelvis/lhip/lknee
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot/ltoe
+        weight: 1
+      - path: pelvis/rhip
+        weight: 1
+      - path: pelvis/rhip/rknee
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot/rtoe
+        weight: 1
+      - path: pelvis/spine1
+        weight: 1
+      - path: pelvis/spine1/spine2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle/lfingertips
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb/lthumbtip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head/jaw
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle/rfingertip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb/rthumbtip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 190.5
+      lastFrame: 191
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 0
+      - path: pelvis
+        weight: 1
+      - path: pelvis/lhip
+        weight: 1
+      - path: pelvis/lhip/lknee
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot
+        weight: 1
+      - path: pelvis/lhip/lknee/lankle/lfoot/ltoe
+        weight: 1
+      - path: pelvis/rhip
+        weight: 1
+      - path: pelvis/rhip/rknee
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot
+        weight: 1
+      - path: pelvis/rhip/rknee/rankle/rfoot/rtoe
+        weight: 1
+      - path: pelvis/spine1
+        weight: 1
+      - path: pelvis/spine1/spine2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lfingers/lknuckle/lfingertips
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/lclavicle/lshoulder/lelbow/lwrist/lthumb/lthumbtip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/neck/head/jaw
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rfingers/rknuckle/rfingertip
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/spine4/rclavicle/rshoulder/relbow/rwrist/rthumb/rthumbtip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 10
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
