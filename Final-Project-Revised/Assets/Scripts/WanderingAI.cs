@@ -86,12 +86,11 @@ public class WanderingAI : MonoBehaviour {
 				GameObject hitObject = hit.transform.gameObject;
 				if (hitObject.name == "HumanPlayer")
 				{
-					Debug.Log("you have been spotted! " + i);
-					i++;
 					_multiplier = 22f;
 				}
-				else if (Random.Range(-1,1) >= 0)
+				else if (Random.Range(0,10) >= 9)
 				{
+					_multiplier = 5f;
 					float angle = Random.Range(-110, 110);
 					transform.Rotate(0, angle, 0);
 				}

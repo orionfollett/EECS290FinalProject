@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CollisionDetection.cs" />
     <Compile Include="Assets\Scripts\ArrowShot.cs" />
     <Compile Include="Assets\Scripts\DartShooting.cs" />
     <Compile Include="Assets\Scripts\FPSInput.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\Scripts\UItrigger.cs" />
     <Compile Include="Assets\Scripts\WanderingAI.cs" />
+    <Compile Include="Assets\ZombieCollisionDetection.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -104,31 +106,31 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/someb/EECS 290 Projects/Final-Project-Revised/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/someb/EECS 290 Projects/EECS290FinalProject/Final-Project-Revised/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -7,24 +7,21 @@ public class ReactiveTarget : MonoBehaviour {
 
 	void Start(){
 
-		anim = GetComponent<Animator>();
+		//anim = GetComponent<Animator>();
 	}
 
 
 	public void ReactToHit() {
 		WanderingAI behavior = GetComponent<WanderingAI>();
-		if (behavior != null) {
-			behavior.SetAlive(false);
-		}
-		StartCoroutine(Die());
+		behavior.SetAlive(false);
+		StartCoroutine(Stun(behavior));
 	}
 
-	private IEnumerator Die() {
-		this.transform.Rotate(-75, 0, 0);
-		anim.SetInteger("zombieToState", 2);
+	private IEnumerator Stun(WanderingAI behavior) {
 		
-		yield return new WaitForSeconds(1.5f);
 		
-		Destroy(this.gameObject);
+		yield return new WaitForSeconds(5f);
+		behavior.SetAlive(true);
+		Debug.Log("stun ended");
 	}
 }
