@@ -10,20 +10,23 @@ public class DartShooting : MonoBehaviour
     float mouseX, mouseY;
 
     private bool fired;
+    public int ammoCount;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && ammoCount > 0)
         {
+            ammoCount -= 1;
             Fire();
         }
     }
+
 
     private void Fire()
     {
@@ -34,7 +37,7 @@ public class DartShooting : MonoBehaviour
         Vector3 dartDirection = InitialProjectileForce * FirePoint.forward;
         dartDirection.x += horizontalInput * 6;
         dartInstance.velocity = dartDirection;
-        Destroy(dartInstance, 3);
+        //Destroy(dartInstance, 3);
         
     }
 }
